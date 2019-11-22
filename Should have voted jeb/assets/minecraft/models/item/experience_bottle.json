@@ -1,0 +1,131 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "untitled2": "minecraft:block/red_concrete",
+        "untitled": "minecraft:block/green_stained_glass",
+        "untitled3": "minecraft:block/black_concrete",
+        "untitled4": "minecraft:block/gray_concrete"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 24, 315, 0 ],
+            "translation": [ 0, 0.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Bottle Base",
+            "from": [ 6, 0, 6 ], 
+            "to": [ 10, 9, 10 ], 
+            "faces": {
+                "north": { "texture": "#untitled", "uv": [ 0, 0, 5, 9 ] },
+                "east": { "texture": "#untitled", "uv": [ 0, 0, 4, 9 ] },
+                "south": { "texture": "#untitled", "uv": [ 0, 0, 4, 9 ] },
+                "west": { "texture": "#untitled", "uv": [ 0, 0, 4, 9 ] },
+                "up": { "texture": "#untitled", "uv": [ 0, 0, 4, 4 ] },
+                "down": { "texture": "#untitled", "uv": [ 0, 0, 4, 4 ] }
+            }
+        },
+        {
+            "name": "Bottle Top",
+            "from": [ 7.25, 12, 7.25 ], 
+            "to": [ 8.75, 13, 8.75 ], 
+            "faces": {
+                "north": { "texture": "#untitled3", "uv": [ 0, 0, 1.5, 1 ] },
+                "east": { "texture": "#untitled3", "uv": [ 0, 0, 1.5, 1 ] },
+                "south": { "texture": "#untitled3", "uv": [ 0, 0, 1.5, 1 ] },
+                "west": { "texture": "#untitled3", "uv": [ 0, 0, 1.5, 1 ] },
+                "up": { "texture": "#untitled3", "uv": [ 0, 0, 1.5, 1.5 ] }
+            }
+        },
+        {
+            "name": "Bottle mid",
+            "from": [ 6.75, 9, 6.75 ], 
+            "to": [ 9.25, 12, 9.25 ], 
+            "faces": {
+                "north": { "texture": "#untitled", "uv": [ 0, 0, 2.5, 3 ] },
+                "east": { "texture": "#untitled", "uv": [ 0, 0, 2.5, 3 ] },
+                "south": { "texture": "#untitled", "uv": [ 0, 0, 2.5, 3 ] },
+                "west": { "texture": "#untitled", "uv": [ 0, 0, 2.5, 3 ] },
+                "up": { "texture": "#untitled", "uv": [ 0, 0, 2.5, 2.5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.75, 13, 7.75 ], 
+            "to": [ 8.25, 13.5, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#untitled4", "uv": [ 1, 0, 1.5, 0.5 ] },
+                "east": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "south": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "west": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "up": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 8, 13.5, 8 ], 
+            "to": [ 8.5, 14, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "east": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "south": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "west": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "up": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "down": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 8.5, 14, 8.5 ], 
+            "to": [ 9, 14.5, 9 ], 
+            "faces": {
+                "north": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "east": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "south": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "west": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "up": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "down": { "texture": "#untitled4", "uv": [ 0, 0, 0.5, 0.5 ] }
+            }
+        },
+        {
+            "name": "Bottle label",
+            "from": [ 5.95, 5, 5.95 ], 
+            "to": [ 10.05, 8, 10.05 ], 
+            "faces": {
+                "north": { "texture": "#untitled2", "uv": [ 0, 0, 5, 9 ] },
+                "east": { "texture": "#untitled2", "uv": [ 0, 0, 4.1, 3 ] },
+                "south": { "texture": "#untitled2", "uv": [ 0, 0, 4.1, 3 ] },
+                "west": { "texture": "#untitled2", "uv": [ 0, 0, 4.1, 3 ] },
+                "up": { "texture": "#untitled2", "uv": [ 0, 0, 4.1, 4.1 ] },
+                "down": { "texture": "#untitled2", "uv": [ 0, 0, 4.1, 4.1 ] }
+            }
+        }
+    ]
+}
